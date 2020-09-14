@@ -1,0 +1,79 @@
+body{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://www.spiceuptheroad.com/site/wp-content/uploads/2020/05/parsing-eye-xSbauNP-8jA-unsplash.jpg");
+    /* background-image: url("../patagonia3.jpg"); */
+    background-size: cover; 
+    
+}
+
+
+
+.countdown_container{
+    display: flex;
+    
+    /* position: relative;
+    left: 150px;
+    top: 350px; */
+    flex-wrap: wrap;
+}
+
+h1{
+    font-weight: 300;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4rem;
+    /* position: absolute;
+    top: 35%;
+    right: 15%; */
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.card{
+    margin: 2rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    /* background-color:rgb(39, 106, 172, 0.5); */
+    
+    
+}
+
+.numb-style{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    
+}
+
+.ecco-logo{
+    width:300px;
+    height: 300px;
+    margin: 50px 0 0 0; 
+}
+
+
+/* Media Query */
+
+@media (max-width:700px){
+
+    .card{
+        color: white;
+    }
+
+body{
+background-size: 200%;
+
+}
+
+}
