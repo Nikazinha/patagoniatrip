@@ -62,6 +62,37 @@ h1{
     margin: 50px 0 0 0; 
 }
 
+.copyright{
+  align-content: flex-end;
+} 
+
+
+a{
+    font-family: 'Amatic SC', cursive;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    align-content: flex-end;
+    padding-left: 6px;
+    text-decoration: none;
+}
+
+.footer{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    display: flex;
+
+
+}
+
+a:hover {
+    color: black;
+    text-emphasis: none;
+}
+
+
 
 /* Media Query */
 
