@@ -106,5 +106,19 @@ body{
 background-size: 200%;
 
 }
+    
+ .card.hour_count{
+    color: black;
+}
+
+.card.day_count{
+color:black;
+}
+
+.ecco-logo{
+    width:80px;
+    height: 80px;
+    margin: 50px 0 0 0; 
+}
 
 }
