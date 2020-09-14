@@ -1,5 +1,7 @@
 <h1>PATAGONIA TRIP COUNTDOWN</h1>
 
+You can check it out on: https://patagoniatrip.vercel.app/ 
+
 <h3> What did I work with? </h3> 
 - Used JS + HTML + CSS
 
